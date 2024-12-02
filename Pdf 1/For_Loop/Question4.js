@@ -4,8 +4,6 @@ let num = prompt('Enter the range of the digits: ');
 
 for(let i=0;i< num ; i++){
     if(i<=1){
-        console.log(i);
-        
         continue;
     }
     let isPrime = true;
