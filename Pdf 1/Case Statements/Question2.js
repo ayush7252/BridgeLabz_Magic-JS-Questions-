@@ -8,6 +8,7 @@ function RandomGenerate() {
 }
 
 let num =RandomGenerate();
+num = Number(num);
 
 switch (num) {
     case 1:
